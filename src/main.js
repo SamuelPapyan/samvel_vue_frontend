@@ -2,11 +2,11 @@ import { createApp } from 'vue/dist/vue.esm-bundler'
 import App from './App.vue'
 import {createRouter, createWebHistory} from 'vue-router'
 import StudentList from "@/components/StudentList";
-import "bootstrap";
 import CreateStudent from "@/components/CreateStudent";
 import EditStudent from "@/components/EditStudent";
 import ConnectionError from "@/components/ConnectionError";
 import SearchResult from "@/components/SearchResult";
+import "bootstrap";
 
 const routes = [
     {path:'/', component:StudentList},
