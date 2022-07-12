@@ -20,5 +20,10 @@ npm run build
 npm run lint
 ```
 
+### Back-end (in other terminal)
+```
+npm run backend
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
